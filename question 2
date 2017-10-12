@@ -1,0 +1,25 @@
+//fig. addition
+//diplaying the sum of two numbers input from the keyboard.
+using System;
+
+class addition
+{
+    //Main method begins execution of c#
+    static void Main()
+    {
+        int number1; // declatre the first number
+        int number2; // declare second number to add
+        int sum; // declare sum of number1 and number2
+
+        Console.Write("enter first interger: "); // prompt user
+                                                 //read first number from user
+        number1 = int.Parse(Console.ReadLine());
+
+        Console.Write("enter second interger: "); // prompt user
+                                                  //read second number from user
+        number2 = int.Parse(Console.ReadLine());
+
+        sum = number1 + number2; // add numbers 
+        Console.WriteLine($"sum is {sum}"); // display sum
+    } // ends main
+} // ends class addition
