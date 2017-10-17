@@ -1,0 +1,16 @@
+// a hello world! program in C#
+using System;
+namespace HelloWorld
+{
+    class Hello
+    {
+        static void Main()
+        {
+            Console.WriteLine("Hello \t World");
+            Console.WriteLine("Hello \nWorld");
+            Console.WriteLine("\"Hello World!\"");
+            Console.WriteLine("Hello\\World!");
+
+        }
+    }
+}
